@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"consul","Source":"github.com/wardviaene/terraform-consul-module.git?ref=terraform-0.12","Dir":".terraform\\modules\\consul"},{"Key":"","Source":"","Dir":"."}]}
