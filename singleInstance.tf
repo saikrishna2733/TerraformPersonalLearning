@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "AKIAUGVEZBBCO2CCUSWP"
-  secret_key = "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"
+  access_key = "AKIAUGVEZBBCdfO2CCUSWP"
+  secret_key = "Aesbhb3eF7WCervyJEBZ3wMZYpI5VdnPQTBn2qSqUQ"
   region     = "ap-south-1"
 }
 resource "aws_instance" "TerraforminstanceSai" {
