@@ -1,7 +1,7 @@
 pipeline {
-  agent any
+  agent none
   stages {
-    stage('') {
+    stage('error') {
       steps {
         bat 'echo "simpletest"'
       }
