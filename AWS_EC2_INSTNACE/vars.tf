@@ -1,9 +1,9 @@
 variable "AWS_ACCESS_KEY" {
-default = "AKIA3XBJG7TNV5ESMFWJ"
+default = "AKIA3XBJG7TNV5ESSDfsadfMFWJ"
 }
 
 variable "AWS_SECRET_KEY" {
-default = "hL5l5ACyP8Z0d02mGn8uHZKlznd6o8L7s913OTgT"
+default = "hL5l5ACyP8Z0d02mGn8uHasDfsdfZKlznd6o8L7s913OTgT"
 }
 
 variable "AWS_REGION" {
