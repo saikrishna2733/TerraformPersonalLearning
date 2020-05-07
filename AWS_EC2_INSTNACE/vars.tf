@@ -1,11 +1,13 @@
 variable "AWS_ACCESS_KEY" {
+default = "AKIA3XBJG7TNV5ESMFWJ"
 }
 
 variable "AWS_SECRET_KEY" {
+default = "hL5l5ACyP8Z0d02mGn8uHZKlznd6o8L7s913OTgT"
 }
 
 variable "AWS_REGION" {
-  default = "ap-southeast-1"
+  default = "ap-south-1"
 }
 
 variable "customAMI" {

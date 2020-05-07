@@ -5,7 +5,7 @@
  
  vpc_security_group_ids = [aws_security_group.from_asia.id]
  }*/
- data "aws_ip_ranges" "asia-ec2" {
+ data "aws_ip_ranges" "european_ec2" {
   regions  = ["ap-south-1", "ap-southeast-1"]
   services = ["ec2"]
 }

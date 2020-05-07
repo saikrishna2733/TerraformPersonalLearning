@@ -1,13 +1,16 @@
 provider "aws" {
-  access_key = "AKIAUGVEZBBCdfO2CCUSWP"
-  secret_key = "Aesbhb3eF7WCervyJEBZ3wMZYpI5VdnPQTBn2qSqUQ"
+  access_key = "AKIA3XBJG7TNV5ESMFWJ"
+  secret_key = "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"
   region     = "ap-south-1"
 }
-resource "aws_instance" "TerraforminstanceSai" {
-  ami           = "ami-54d2a63b"
-  instance_type = "t2.micro"
+data "aws_ami" "encrypted-ami" {
+  most_recent = true
+
+  filter {
+    name   = "name"
+    values = ["ubuntu-xenial"]
+  }
+
+  owners = ["self"]
 }
-resource "aws_instance" "Terraforminstancepavan" {
-  ami           = "ami-54d2a63b"
-  instance_type = "t2.micro"
-}
+
